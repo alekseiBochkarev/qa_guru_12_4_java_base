@@ -46,6 +46,13 @@ public class HomeTask {
         System.out.println("myFloat type is " + getType(myFloat));
         System.out.println("myDouble type is " + getType(myDouble));
 
+        long newLong = homeInt + homeLong;
+        long newLong2 = homeByte + homeLong;
+        int newInt = (int) homeLong + homeInt;
+        System.out.println("newLong = " + newLong);
+        System.out.println("newLong2 = " + newLong2);
+        System.out.println("newInt = " + newInt);
+
         int first, second, third;
         Scanner scanner = new Scanner(System.in);
         System.out.println("enter first int: ");
